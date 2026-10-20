@@ -1,0 +1,25 @@
+{
+"format_version": 2,
+"header": {
+"name": "Halloween Trick or Treat",
+"description": "A Halloween trick-or-treat event",
+"uuid": "7b8f9c21-3d46-4a52-9e71-6f0b2c8d1a35",
+"version": [1, 0, 0],
+"min_engine_version": [1, 21, 0]
+},
+"modules": [
+{
+"type": "script",
+"language": "javascript",
+"entry": "scripts/main.js",
+"uuid": "2c6e4f81-a935-47d2-b8c0-1e9a5d7f3b62",
+"version": [1, 0, 0]
+}
+],
+"dependencies": [
+{
+"module_name": "@minecraft/server",
+"version": "2.0.0"
+}
+]
+}
